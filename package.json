@@ -1,0 +1,26 @@
+{
+  "name": "poke-api-backend-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ag1320/poke-api-backend-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ag1320/poke-api-backend-project/issues"
+  },
+  "homepage": "https://github.com/ag1320/poke-api-backend-project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.95.12",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1"
+  }
+}
